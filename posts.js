@@ -53,7 +53,7 @@ const postReducer = (state = initialState, action) => {
     //   break;f
 
     default:
-      break;
+      return state;
   }
 };
 
